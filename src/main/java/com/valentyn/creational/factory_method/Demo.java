@@ -3,13 +3,13 @@ package com.valentyn.creational.factory_method;
 import com.valentyn.creational.factory_method.factory.ConcreteCreatorA;
 import com.valentyn.creational.factory_method.factory.ConcreteCreatorB;
 import com.valentyn.creational.factory_method.factory.Creator;
-import com.valentyn.creational.factory_method.product.Product;
 
 class Demo {
 
     private static Creator creator;
     public static void main(String[] args) {
-        configure("B");
+        String s = "B";
+        configure(s);
         runBusinessLogic();
     }
 

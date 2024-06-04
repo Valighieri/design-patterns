@@ -11,7 +11,7 @@ public abstract class Creator {
     public void someOperation(){
         Product product = createProduct();
         product.doStuff();
-    };
+    }
 
     /**
      * Подклассы будут переопределять этот метод, чтобы создавать конкретные
